@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url(/public/fonts/Minecraft.ttf);
+}
+
+* {
+    font-family: 'Minecraft', sans-serif;
+}
+
+.titulo {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.menu{
+    gap: 15px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    font-size: large;
+    width: 10%;
+    height: 10%;
+}
+
+.number {
+    font-size: 3rem;
+}
